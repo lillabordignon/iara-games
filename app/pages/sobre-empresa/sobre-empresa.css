@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    ul {
+        list-style: none;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding: 24px 40px;
+    flex-wrap: wrap;
+
+    .header-menu {
+        display: flex;
+        gap: 32px;
+
+        li {
+            font-size: 20px;
+
+            a {
+                color: #0D0D0D;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #1e71e7;
+            }
+        }
+    }
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 100%;
+        max-width: 1280px;
+        margin: 40px 0;
+        border-radius: 40px;
+        padding: 24px;
+    }
+
+    p {
+        color: #0D0D0D;
+    }
+
+    .content-1 {
+        max-width: 1024px;
+        text-align: center;
+        margin: 32px 0;
+        line-height: 1.5;
+        padding: 0 24px;
+
+        h1 {
+            font-size: 36px;
+            color: #1E71E7;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+        }
+    }
+
+    .content-2 {
+        display: flex;
+        gap: 40px;
+        max-width: 1280px;
+        margin: 32px 0;
+        line-height: 1.5;
+        color: #0D0D0D;
+        text-align: justify;
+        padding: 0 24px;
+
+        h2 {
+            text-align: center;
+            margin: 16px 0;
+            font-size: 32px;
+        }
+
+        div {
+            max-width: 480px;
+        }
+    }
+
+    .content-3 {
+        width: 100%;
+        background: linear-gradient(to right, #1e71e7, #3fa9f5);
+        padding: 40px 24px;
+        line-height: 1.5;
+
+        .content-3-align {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin: 40px 0;
+
+            div {
+                max-width: 340px;
+                background-color: #FFFFFF;
+                padding: 24px;
+                border-radius: 8px;
+                box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            color: #FFFFFF;
+            text-shadow: 4px 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            text-align: center;
+            margin: 16px;
+            font-size: 24px;
+        }
+    }
+}
