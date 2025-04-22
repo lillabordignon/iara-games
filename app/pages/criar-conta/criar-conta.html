@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iara Games</title>
+    <link rel="stylesheet" href="criar-conta.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img src="../../assets/logo.svg" alt="Logo da Iara Games">
+
+        <nav class="menu-wrapper">
+            <ul>
+                <li><a href="../home/home.html">Jogos</a></li>
+                <li><a href="../sobre-empresa/sobre-empresa.html">Sobre</a></li>
+            </ul>
+
+            <ul>
+                <li class="menu-direito">
+                    <img src="../../assets/user.png" alt="Ícone de usuário">
+                    <a href="../sobre-empresa/sobre-empresa.html">Criar conta</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="content">
+        <img src="../../assets/logoQuadrado.svg" alt="Logo da Iara Games">
+        <h1>Criar sua conta Iara Games</h1>
+
+        <form id="dados-conta" name="dados-conta" method="post" class="form">
+            <div>
+                <label for="nome">Digite seu nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+            </div>
+            <div>
+                <label for="sobrenome">Digite seu sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira seu Sobrenome" required>
+            </div>
+            <div>
+                <label for="email">Digite seu E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+            <div>
+                <label for="data">Insira sua data de nascimento</label>
+                <input type="date" name="data" id="data" placeholder="Data de Nascimento" required>
+            </div>
+            <div>
+                <label for="usuario">Crie um usuário</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Digite um nome de usuário" required>
+            </div>
+            <div>
+                <label for="senha">Digite sua senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="form-btn">
+                <button type="submit">Salvar cadastro</button>
+            </div>
+        </form>
+
+    </main>
+
+</body>
+
+</html>

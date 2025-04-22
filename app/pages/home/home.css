@@ -16,24 +16,38 @@ body {
     display: flex;
     align-items: center;
     gap: 48px;
-    padding: 24px 40px;
+    padding: 8px 60px;
     flex-wrap: wrap;
 
-    .header-menu {
+    .menu-wrapper {
         display: flex;
-        gap: 32px;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
 
-        li {
-            font-size: 20px;
+        ul {
+            display: flex;
+            gap: 32px;
 
-            a {
-                color: #0D0D0D;
-                text-decoration: none;
+            li {
+                font-size: 18px;
+
+                a {
+                    color: #141416;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: #1E71E7;
+                }
             }
+        }
 
-            a:hover {
-                color: #1e71e7;
-            }
+
+        .menu-direito {
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
     }
 }
@@ -42,12 +56,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px 24px;
-    background: linear-gradient(to bottom right, #F24194, #1e71e7);
+    padding: 0 24px;
+    margin-top: 60px;
 
     h1 {
         font-size: 36px;
-        color: #FFFFFF;
+        color: #141416;
         text-shadow: 4px 6px 16px rgba(0, 0, 0, 0.2);
         margin-bottom: 24px;
         text-transform: uppercase;
@@ -86,13 +100,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-
 .card img {
     width: 100%;
     height: auto;
@@ -111,4 +118,44 @@ body {
     color: #555;
     margin: 0 12px 16px;
     line-height: 1.4;
+}
+
+.banner {
+    background-image: url("../../assets/bannerHome.png");
+    background-size: cover;
+    background-position: center;
+    height: 634px;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.conteudo-banner {
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 480px;
+}
+
+.conteudo-banner p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #F24194;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    
+}
+
+.btn-saiba-mais:hover {
+    background-color: rgba(242, 65, 148, 0.8);
 }
