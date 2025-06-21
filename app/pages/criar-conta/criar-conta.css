@@ -55,7 +55,7 @@ body {
 .content {
     display: grid;
     place-items: center;
-    background-color: #141416;
+    background-color: #0D1A2F;
     padding: 40px 0;
 
     img{
