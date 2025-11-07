@@ -9,7 +9,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um RPG envolvente com narrativa profunda, escolhas difíceis e exploração em mundo aberto.",
         "fullDescription": "Chama Oculta é um RPG de fantasia e narrativa profunda, no qual cada decisão impacta diretamente o mundo e seus habitantes. O jogador deve explorar ambientes vastos, construir alianças, enfrentar inimigos desafiadores e tomar decisões morais que moldarão o destino da história de forma única e memorável.",
-        "cover": "../public/images/chama-oculta.png",
+        "cover": "images/chama-oculta.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 5 2600",
             "graphics": "GTX 1660",
@@ -35,7 +35,7 @@
         "gameMode": "Multijogador",
         "shortDescription": "Um puzzle criativo e desafiador que testa a lógica, raciocínio e imaginação do jogador.",
         "fullDescription": "Mundos Paralelos é um puzzle engenhoso que estimula a lógica e o raciocínio do jogador. Com enigmas progressivamente mais complexos, cada fase traz novas regras e mecânicas criativas que exigem pensamento inovador, perseverança e estratégias inteligentes para encontrar as soluções corretas.",
-        "cover": "../public/images/mundos-paralelos.png",
+        "cover": "images/mundos-paralelos.png",
         "minimumSystemRequirements": {
             "processor": "Intel i3 6100",
             "graphics": "GTX 750 Ti",
@@ -61,7 +61,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Uma jornada de aventura com narrativa envolvente, exploração detalhada e puzzles instigantes.",
         "fullDescription": "Last Haven é uma aventura narrativa e exploratória que convida o jogador a desvendar mistérios, resolver puzzles e atravessar mundos detalhados. Cada cenário guarda segredos e desafios únicos, criando uma jornada emocionante repleta de descobertas inesquecíveis e momentos marcantes.",
-        "cover": "../public/images/last-haven.png",
+        "cover": "images/last-haven.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 3 1200",
             "graphics": "GTX 750 Ti",
@@ -87,7 +87,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um jogo de estratégia que exige planejamento inteligente, gestão de recursos e batalhas épicas.",
         "fullDescription": "Crystal Abyss é um jogo de estratégia que desafia a mente com batalhas épicas e gestão de recursos. Cada decisão influencia o rumo da campanha, forçando o jogador a pensar criticamente, planejar com antecedência e dominar diferentes táticas para alcançar a vitória.",
-        "cover": "../public/images/crystal-abyss.png",
+        "cover": "images/crystal-abyss.png",
         "minimumSystemRequirements": {
             "processor": "Intel i3 6100",
             "graphics": "GTX 1660",
@@ -113,7 +113,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Uma jornada de aventura com narrativa envolvente, exploração detalhada e puzzles instigantes.",
         "fullDescription": "Cidade Perdida é uma aventura narrativa e exploratória que convida o jogador a desvendar mistérios, resolver puzzles e atravessar mundos detalhados. Cada cenário guarda segredos e desafios únicos, criando uma jornada emocionante repleta de descobertas inesquecíveis e momentos marcantes.",
-        "cover": "../public/images/cidade-perdida.png",
+        "cover": "images/cidade-perdida.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 3 1200",
             "graphics": "RX 560",
@@ -139,7 +139,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um terror psicológico intenso com atmosfera sombria, tensão crescente e mistérios perturbadores.",
         "fullDescription": "Labirinto do Tempo é um terror psicológico que coloca o jogador em ambientes sombrios e perturbadores, cheios de sustos inesperados e mistérios obscuros. A narrativa densa, unida a elementos de sobrevivência e tensão constante, cria uma experiência angustiante, intensa e inesquecível.",
-        "cover": "../public/images/labirinto-do-tempo.png",
+        "cover": "images/labirinto-do-tempo.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 5 2600",
             "graphics": "GTX 750 Ti",
@@ -165,7 +165,7 @@
         "gameMode": "Multijogador",
         "shortDescription": "Uma simulação realista que oferece cenários imersivos, liberdade de escolhas e múltiplas possibilidades.",
         "fullDescription": "Universe é uma simulação realista que recria cenários imersivos e dinâmicos, permitindo ao jogador assumir diferentes papéis e tomar decisões que impactam diretamente o mundo virtual. A liberdade de escolhas e a atenção aos detalhes tornam a experiência envolvente e única.",
-        "cover": "../public/images/universe.png",
+        "cover": "images/universe.png",
         "minimumSystemRequirements": {
             "processor": "Intel i3 6100",
             "graphics": "GTX 1050 Ti",
@@ -191,7 +191,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um jogo de plataforma clássico com fases criativas, obstáculos desafiadores e jogabilidade envolvente.",
         "fullDescription": "Shattered Realms é um jogo de plataforma que reinventa o gênero clássico com fases criativas, obstáculos precisos e jogabilidade divertida. O jogador deve superar desafios, explorar ambientes variados e dominar saltos enquanto vivencia uma jornada nostálgica e ao mesmo tempo moderna.",
-        "cover": "../public/images/shattered-realms.png",
+        "cover": "images/shattered-realms.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 3 1200",
             "graphics": "GTX 1050 Ti",
@@ -217,7 +217,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um terror psicológico intenso com atmosfera sombria, tensão crescente e mistérios perturbadores.",
         "fullDescription": "Eternal Voyage é um terror psicológico que coloca o jogador em ambientes sombrios e perturbadores, cheios de sustos inesperados e mistérios obscuros. A narrativa densa, unida a elementos de sobrevivência e tensão constante, cria uma experiência angustiante, intensa e inesquecível.",
-        "cover": "../public/images/eternal-voyage.png",
+        "cover": "images/eternal-voyage.png",
         "minimumSystemRequirements": {
             "processor": "AMD Ryzen 3 1200",
             "graphics": "GTX 750 Ti",
@@ -243,7 +243,7 @@
         "gameMode": "Um jogador",
         "shortDescription": "Um jogo de plataforma clássico com fases criativas, obstáculos desafiadores e jogabilidade envolvente.",
         "fullDescription": "Dark Horizon é um jogo de plataforma que reinventa o gênero clássico com fases criativas, obstáculos precisos e jogabilidade divertida. O jogador deve superar desafios, explorar ambientes variados e dominar saltos enquanto vivencia uma jornada nostálgica e ao mesmo tempo moderna.",
-        "cover": "../public/images/dark-horizon.png",
+        "cover": "images/dark-horizon.png",
         "minimumSystemRequirements": {
             "processor": "Intel i3 6100",
             "graphics": "RX 560",
