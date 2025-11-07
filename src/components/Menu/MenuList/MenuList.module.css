@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    gap: var(--gap-l);
+    font-family: var(--font-title);
+    font-size: var(--font-size-s);
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+}

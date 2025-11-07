@@ -1,0 +1,18 @@
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xxl);
+    margin: 0;
+    padding: var(--padding-xxs) var(--padding-xxl);
+}
+
+.item {
+    list-style: none;
+}
+
+.icon {
+    display: flex;
+    gap: var(--gap-m);
+    font-weight: 400;
+}

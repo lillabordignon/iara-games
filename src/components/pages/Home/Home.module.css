@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: var(--margin-m) 0;
+
+    h1 {
+        font-size: 36px;
+        color: var(--dark-title);
+        text-shadow: 4px 6px 16px rgba(0, 0, 0, 0.2);
+        margin: var(--margin-m) 0 var(--margin-xxl) 0;
+        text-transform: uppercase;
+    }
+}

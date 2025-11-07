@@ -1,0 +1,50 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 340px;
+    justify-content: center;
+}
+
+.card {
+    text-decoration: none;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 24px -2px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    display: block;
+}
+
+.cardContent {
+    padding: var(--padding-m);
+}
+
+.card h2 {
+    font-size: var(--font-size-l);
+    color: var(--dark-title);
+    font-weight: 600;
+    margin: 0 0 var(--margin-xs) 0;
+}
+
+.card p {
+    font-size: var(--font-size-s);
+    color: var(--dark-title);
+    margin: 0 0 var(--margin-xs) 0;
+    line-height: 1.5;
+}
+
+.card span {
+    font-size: var(--font-size-xxs);
+    color: var(--secondary-blue);
+    margin: 0;
+    font-weight: 600;
+}
